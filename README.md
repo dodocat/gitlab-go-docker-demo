@@ -1,8 +1,8 @@
 # 基于 Gitlab 交付 Go 程序的 Docker 镜像
 
-Gitlab 提供了强大 CI/CD 工程并且集成了 docker 镜像服务, 可以在此基础上快速实现 docker 镜像交付.
+Gitlab 提供了完整 CI/CD 功能并且集成了 docker 镜像服务, 可以在此基础上快速实现 docker 镜像交付.
 
-样例工程目录结构如下:
+样例工程目录结构如下[https://github.com/dodocat/gitlab-go-docker-demo](https://github.com/dodocat/gitlab-go-docker-demo):
 
 ```
 ├── .gitlab-ci.yml
@@ -17,7 +17,7 @@ Gitlab 提供了强大 CI/CD 工程并且集成了 docker 镜像服务, 可以�
 
 ## 依赖管理
 
-项目使用 golang 官方包管理工具 `dep` 进行依赖管理, 参考官方文档: https://github.com/golang/dep
+项目使用 golang 官方包管理工具 `dep` 进行依赖管理, 参考官方文档: [https://github.com/golang/dep](https://github.com/golang/dep)
 
 直接通过 go get 安装 dep
 
